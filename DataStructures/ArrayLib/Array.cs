@@ -30,27 +30,4 @@ public class Array
         System.Array.Copy(array, newArray, array.Length);
         _InnerArray = newArray;
     }
-
-    public void Delete(int index)
-    {
-        if(_Index > _InnerArray.Length)
-        {
-            Console.WriteLine("Please enter a valid value!");
-        }
-        else
-        {
-        _InnerArray[index] = "";
-        }
-    }
-    public void Update(int index, Object item)
-    {
-        if (index > _InnerArray.Length || item == null)
-        {
-            Console.WriteLine("Please check your values!");
-        }
-        else
-        {
-            _InnerArray[index] = item;
-        }
-    }
 }
