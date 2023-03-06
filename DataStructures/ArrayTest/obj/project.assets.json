@@ -1808,6 +1808,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Array/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Array.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Array.dll": {}
+        }
       }
     }
   },
@@ -6103,10 +6113,16 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Array/1.0.0": {
+      "type": "project",
+      "path": "../ArrayLib/Array.csproj",
+      "msbuildProject": "../ArrayLib/Array.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Array >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6144,7 +6160,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\Array.csproj": {
+              "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\Array.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

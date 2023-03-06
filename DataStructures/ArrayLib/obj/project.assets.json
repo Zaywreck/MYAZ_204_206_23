@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\ArrayLib.csproj",
-      "projectName": "ArrayLib",
-      "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\ArrayLib.csproj",
+      "projectUniqueName": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\Array.csproj",
+      "projectName": "Array",
+      "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\Array.csproj",
       "packagesPath": "C:\\Users\\mgull\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\ArrayLib\\obj\\",
       "projectStyle": "PackageReference",
