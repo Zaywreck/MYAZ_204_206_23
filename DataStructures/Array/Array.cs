@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 namespace Array;
 public class Array : IEnumerable
@@ -7,7 +8,6 @@ public class Array : IEnumerable
     // Type : Array
     private Object[] _InnerArray; // null
     private int index = 0;
-
     public int Count => index;  // Dizi kaç eleman var?
     public int Capacity => _InnerArray.Length;
 
@@ -17,13 +17,20 @@ public class Array : IEnumerable
         _InnerArray = new Object[4]; // Block allocation
     }
 
+    public Array(params Object[] init)
+    {
+        var newArray = new Object[init.Length];
+        System.Array.Copy(init, newArray, init.Length);
+        _InnerArray = newArray;
+    }
+
     public void Add(Object item)
     {
-        if (index == _InnerArray.Length)
+        if(index==_InnerArray.Length)
         {
             DoubleArray(_InnerArray);
         }
-
+        
         _InnerArray[index] = item;
         index++;
     }
@@ -46,28 +53,57 @@ public class Array : IEnumerable
     /// <exception cref="NotImplementedException"></exception>
     public Object GetItem(int position)
     {
+        // throw new NotImplementedException();
+        if (position < 0 || position >= _InnerArray.Length)
+            throw new IndexOutOfRangeException();
         return _InnerArray[position];
     }
 
+
     /// <summary>
-    /// Week 1
+    /// Week 2 - Implematation 1
+    /// SetItem içerisinde verilen pozisyon değeri aralık dışarısında ise hata fırlatılmalı.
+    /// Exception() // IndexOutOfRangeException()
     /// </summary>
     /// <param name="position"></param>
-    /// <returns>
-    ///     Verilen pozisyonda bulunan elemanı siler ve elemanı geri döndürür.
-    ///     Eğer eleman yoksa veya sınırlar dışındaysa IndexOutOfRangeException hatası fırlatır.
-    ///     Eğer pozisyonda eleman yoksa -1 döndür. 
-    /// </returns>
-    /// <exception cref="NotImplementedException"></exception>
-    public Object RemoveItem(int position)
+    /// <param name="item"></param>
+    public void SetItem(int position, Object item)
     {
-        var temp = _InnerArray[position];
-        _InnerArray[position] = null;
-        return temp;
+        if (position < 0 || position >= _InnerArray.Length)
+            throw new IndexOutOfRangeException();
+        _InnerArray[position] = item;
     }
 
     /// <summary>
-    /// Week 1 - Verilen pozisyondaki elemanları yer değiştirir.
+    /// Week 2 - Implementation 2 
+    /// Remove işleminde girilen pozisyondaki eleman çıkarılmalıdır.
+    /// Çıkarma işleminden sonra eleman geri döndürülmelidir.
+    /// Çıkarılan elemanın yerine diğerleri kaydırılmalıdır.
+    /// </summary>
+    /// <param name="position"></param>
+    /// <exception cref="NotImplementedException"></exception>
+    public Object RemoveItem(int position)
+    {
+        var item = GetItem(position);
+        SetItem(position, null);
+        for(int i=position; i< Count-1; i++)
+        {
+            // _InnerArray[i] = _InnerArray[i + 1];
+            Swap(i, i + 1);
+        }
+        index--;
+        if(index == _InnerArray.Length / 2)
+        {
+            var newArray = new Object[_InnerArray.Length / 2];
+            System.Array.Copy(_InnerArray, newArray, newArray.Length);
+            _InnerArray = newArray;
+        }
+        return item;
+        
+    }
+
+    /// <summary>
+    ///  Week - 1 Implementation 2
     /// </summary>
     /// <param name="p1"></param>
     /// <param name="p2"></param>
@@ -79,19 +115,15 @@ public class Array : IEnumerable
     }
 
     /// <summary>
-    /// Week 1
+    /// Week - 1 Implementation 3
     /// </summary>
     /// <param name="item"></param>
-    /// <returns>
-    ///     Verilen elemana ait pozisyon bilgisini geri döndürür.
-    ///     Eğer eleman yoksa -1 geri döndürür.
-    /// </returns>
-    /// <exception cref="NotImplementedException"></exception>
+    /// <returns></returns>
     public int Find(Object item)
     {
         for (int i = 0; i < _InnerArray.Length; i++)
         {
-            if (item == _InnerArray[i])
+            if (item.Equals(_InnerArray[i]))
             {
                 return i;
             }
@@ -99,8 +131,30 @@ public class Array : IEnumerable
         return -1;
     }
 
+    /// <summary>
+    /// Week 2 - Implementation 3
+    /// Verilen değer aralındaki elemanlar kopyalanmalıdır.
+    /// Geri dönüş değeri dizidir.
+    /// Verilen pozisyon bilgileri kontrol edilmelidir.
+    /// </summary>
+    /// <returns></returns>
+    public Object[] Copy(int v1, int v2)
+    {
+        var newArray = new Object[v2]; // v2 - v1
+        int j = 0;
+        for(int i=v1; i < v2; i++)
+        {
+            newArray[j] = GetItem(i); // Object
+            j++;
+        }
+
+        return newArray;
+    }
+
     public IEnumerator GetEnumerator()
     {
         return _InnerArray.GetEnumerator();
     }
+
+    
 }
