@@ -3,7 +3,7 @@
   <Class Name="Array.Array">
     <Position X="4.5" Y="3" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAIAAAQAAAAAAFAAAAAAAAQCAAAJAAAEAAAAABABAAA=</HashCode>
+      <HashCode>AAIAAAQAAAAABFAAAAAAAAQCAgAJAAAEAAAAABABAAA=</HashCode>
       <FileName>Array.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
