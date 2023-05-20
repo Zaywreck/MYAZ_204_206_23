@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\Tests\\ListTests\\ListTests.csproj": {}
+    "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\Tests\\ListTests\\ListTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
+    "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
-        "packagesPath": "C:\\Users\\mgull\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\LinkedList\\obj\\",
+        "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "packagesPath": "C:\\Users\\mgulle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mgull\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mgulle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,24 +59,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\Tests\\ListTests\\ListTests.csproj": {
+    "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\Tests\\ListTests\\ListTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\Tests\\ListTests\\ListTests.csproj",
+        "projectUniqueName": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\Tests\\ListTests\\ListTests.csproj",
         "projectName": "ListTests",
-        "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\Tests\\ListTests\\ListTests.csproj",
-        "packagesPath": "C:\\Users\\mgull\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\Tests\\ListTests\\obj\\",
+        "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\Tests\\ListTests\\ListTests.csproj",
+        "packagesPath": "C:\\Users\\mgulle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\Tests\\ListTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mgull\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mgulle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj"
+              "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\LinkedList\\LinkedList.csproj"
               }
             }
           }
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1249,23 +1249,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mgull\\.nuget\\packages\\": {},
+    "C:\\Users\\mgulle\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\SortingAlgorithmsApp\\SortingAlgorithmsApp.csproj",
+      "projectUniqueName": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\SortingAlgorithmsApp\\SortingAlgorithmsApp.csproj",
       "projectName": "SortingAlgorithmsApp",
-      "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\SortingAlgorithmsApp\\SortingAlgorithmsApp.csproj",
-      "packagesPath": "C:\\Users\\mgull\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\SortingAlgorithmsApp\\obj\\",
+      "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\SortingAlgorithmsApp\\SortingAlgorithmsApp.csproj",
+      "packagesPath": "C:\\Users\\mgulle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\SortingAlgorithmsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mgull\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mgulle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1280,8 +1280,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\SortingAlgorithms\\SortingAlgorithms.csproj": {
-              "projectPath": "C:\\Users\\mgull\\source\\repos\\MYAZ_204_206_23\\SortingAlgorithms\\SortingAlgorithms.csproj"
+            "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\SortingAlgorithms\\SortingAlgorithms.csproj": {
+              "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\SortingAlgorithms\\SortingAlgorithms.csproj"
             }
           }
         }
@@ -1317,7 +1317,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
