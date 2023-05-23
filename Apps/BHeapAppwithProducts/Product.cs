@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace BHeapAppwithProducts
 {
     public class Product : IComparable
     {
+        public List<Product> products { get; set; }
+
         public int id { get; set; }
         public string productName { get; set; }
         public int price { get; set; }

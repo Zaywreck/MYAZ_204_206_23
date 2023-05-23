@@ -46,3 +46,15 @@ C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructuresAlgorithms\DataStructu
 C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructuresAlgorithms\DataStructures\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
 C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructuresAlgorithms\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.pdb
 C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructuresAlgorithms\DataStructures\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.deps.json
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.pdb
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.csproj.AssemblyReference.cache
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfoInputs.cache
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfo.cs
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.pdb
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll
