@@ -58,3 +58,15 @@ C:\Users\mgull\source\repos\MYAZ20420623-master\DataStructuresAlgorithms\DataStr
 C:\Users\mgull\source\repos\MYAZ20420623-master\DataStructuresAlgorithms\DataStructures\Array\obj\Debug\net6.0\refint\Array.dll
 C:\Users\mgull\source\repos\MYAZ20420623-master\DataStructuresAlgorithms\DataStructures\Array\obj\Debug\net6.0\Array.pdb
 C:\Users\mgull\source\repos\MYAZ20420623-master\DataStructuresAlgorithms\DataStructures\Array\obj\Debug\net6.0\ref\Array.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\bin\Debug\net6.0\Array.deps.json
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\bin\Debug\net6.0\Array.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\bin\Debug\net6.0\Array.pdb
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.csproj.AssemblyReference.cache
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.AssemblyInfoInputs.cache
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.AssemblyInfo.cs
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.csproj.CoreCompileInputs.cache
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\refint\Array.dll
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\Array.pdb
+C:\Users\mgulle\source\repos\c_sharp\Myaz_204_206_23\DataStructures\Array\obj\Debug\net6.0\ref\Array.dll
