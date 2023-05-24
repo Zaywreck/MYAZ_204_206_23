@@ -171,11 +171,16 @@ namespace Array
 
         public void SetValue(T value, int index)
         {
-            if (!(index >= 0 && index < _InnerArray.Length))
-                throw new ArgumentOutOfRangeException();
-            if (value == null)
-                throw new ArgumentNullException();
+            //if (!(index >= 0 && index < Count))
+            //    throw new ArgumentOutOfRangeException();
+            //if (value == null)
+            //    throw new ArgumentNullException();
+            if(index == _InnerArray.Length)
+            {
+               DoubleArray(_InnerArray);
+            }
             _InnerArray[index] = value;
+
         }
     }
 
