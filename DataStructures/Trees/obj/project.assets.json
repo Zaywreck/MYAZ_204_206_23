@@ -1,26 +1,84 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Array/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Array.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Array.dll": {}
+        }
+      },
+      "LinkedList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LinkedList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinkedList.dll": {}
+        }
+      },
+      "Queue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Array": "1.0.0",
+          "LinkedList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Queue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Queue.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Array/1.0.0": {
+      "type": "project",
+      "path": "../Array/Array.csproj",
+      "msbuildProject": "../Array/Array.csproj"
+    },
+    "LinkedList/1.0.0": {
+      "type": "project",
+      "path": "../LinkedList/LinkedList.csproj",
+      "msbuildProject": "../LinkedList/LinkedList.csproj"
+    },
+    "Queue/1.0.0": {
+      "type": "project",
+      "path": "../Queue/Queue.csproj",
+      "msbuildProject": "../Queue/Queue.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Queue >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\zafer\\.nuget\\packages\\": {}
+    "C:\\Users\\mgulle\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Trees\\Trees.csproj",
+      "projectUniqueName": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\Trees\\Trees.csproj",
       "projectName": "Trees",
-      "projectPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Trees\\Trees.csproj",
-      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Trees\\obj\\",
+      "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\Trees\\Trees.csproj",
+      "packagesPath": "C:\\Users\\mgulle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\Trees\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mgulle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +91,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\Queue\\Queue.csproj": {
+              "projectPath": "C:\\Users\\mgulle\\source\\repos\\c_sharp\\Myaz_204_206_23\\DataStructures\\Queue\\Queue.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,7 +123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

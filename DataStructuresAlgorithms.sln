@@ -65,6 +65,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTests", "Tests\GraphTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisjonitSetTests", "Tests\DisjonitSetTests\DisjonitSetTests.csproj", "{28E2B9B0-F564-428D-9C43-223E4D752B53}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "DataStructures\Trees\Trees.csproj", "{C53684BC-CD76-49EE-AF61-89D5C70E50E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +177,10 @@ Global
 		{28E2B9B0-F564-428D-9C43-223E4D752B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28E2B9B0-F564-428D-9C43-223E4D752B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28E2B9B0-F564-428D-9C43-223E4D752B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53684BC-CD76-49EE-AF61-89D5C70E50E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53684BC-CD76-49EE-AF61-89D5C70E50E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53684BC-CD76-49EE-AF61-89D5C70E50E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53684BC-CD76-49EE-AF61-89D5C70E50E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +212,7 @@ Global
 		{CD70AD5E-22C0-4630-B15B-389524ED05D7} = {7549C033-558D-4992-B2A8-BB115FDAC7C5}
 		{1F756E51-ECCA-4AE1-A179-1EC689C78711} = {6235409D-1923-4442-BB35-8357CDE32D91}
 		{28E2B9B0-F564-428D-9C43-223E4D752B53} = {6235409D-1923-4442-BB35-8357CDE32D91}
+		{C53684BC-CD76-49EE-AF61-89D5C70E50E0} = {7549C033-558D-4992-B2A8-BB115FDAC7C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99227D7D-357F-4559-8263-745D037EEFC5}
